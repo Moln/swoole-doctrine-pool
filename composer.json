@@ -1,5 +1,12 @@
 {
     "name": "moln/swoole-doctrine-pool",
+    "description": "Using doctrine pool for swoole",
+    "license": "MIT",
+    "keywords": [
+        "swoole",
+        "doctrine",
+        "pool"
+    ],
     "autoload": {
         "psr-4": {
             "Moln\\SwooleDoctrinePool\\": "src/"
@@ -19,7 +26,7 @@
     "require": {
         "php": ">=8.1",
         "ext-swoole": "*",
-        "doctrine/dbal": "^4.2"
+        "doctrine/dbal": "^3.8 | ^4.2"
     },
     "require-dev": {
         "doctrine/orm": "^3.3",
